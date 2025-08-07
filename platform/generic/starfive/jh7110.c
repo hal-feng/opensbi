@@ -308,6 +308,7 @@ static void starfive_jh7110_fw_init(void *fdt, const struct fdt_match *match)
 
 static const struct fdt_match starfive_jh7110_match[] = {
 	{ .compatible = "starfive,jh7110" },
+	{ .compatible = "starfive,jh7110s" },
 	{ },
 };
 
